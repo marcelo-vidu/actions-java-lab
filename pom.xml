@@ -18,7 +18,6 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
-                <encoding>UTF-8</encoding>
             </resource>
         </resources>
     </build>
