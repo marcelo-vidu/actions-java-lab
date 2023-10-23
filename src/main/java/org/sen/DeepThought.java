@@ -29,6 +29,7 @@ public class DeepThought {
             System.out.println(e);
         }
     }
+    
 
     private int give_answer(){
         return 42;
