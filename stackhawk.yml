@@ -1,5 +1,5 @@
 app:
-  applicationId: e2594d48-e1f3-4610-814b-3fe8773b617b
+  applicationId: e36bb2be-db35-4741-abea-35f1d5be5be0
   env: push
   host: http://localhost:10010
 tags:
