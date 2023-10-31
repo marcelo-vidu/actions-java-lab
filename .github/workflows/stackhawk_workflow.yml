@@ -51,8 +51,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Start your service
+      - name: Check jar
         run: ls -la
+        
+      - name: Start your service
         run: java -jar actions-java-lab-1.0-SNAPSHOT-jar-with-dependencies.jar &
 
       - name: Run HawkScan
