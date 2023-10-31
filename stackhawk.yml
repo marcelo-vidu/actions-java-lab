@@ -9,4 +9,4 @@ tags:
     value: ${ENV_VAR_FOR_BRANCH}
 hawk:
   # Add this if you want pull request comments to specifically call out findings at or above a failure threshold.
-  failureThreshold: high
+  failureThreshold: medium
