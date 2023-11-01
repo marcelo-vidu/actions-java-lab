@@ -21,7 +21,7 @@ jobs:
           name: Package
           path: staging
 
-          
+
   stackhawk:
     permissions:
       contents: read # for actions/checkout to fetch code
@@ -33,9 +33,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: Package
 
       - name: Check jar
-        run: ls -la target/
+        run: ls -la ; ls -la target/
         
       - name: Start your service
         run: java -jar target/actions-java-lab-1.0-SNAPSHOT-jar-with-dependencies.jar &
