@@ -31,19 +31,13 @@ jobs:
     needs: build  
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
           name: Package
-
-      - name: Check jar
-        run: ls -la ; ls -la target/
         
       - name: Start your service
-        run: java -jar target/actions-java-lab-1.0-SNAPSHOT-jar-with-dependencies.jar &
+        run: java -jar actions-java-lab-1.0-SNAPSHOT-jar-with-dependencies.jar &
 
       - name: Run HawkScan
         uses: stackhawk/hawkscan-action@4c3258cd62248dac6d9fe91dd8d45928c697dee0
