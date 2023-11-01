@@ -21,6 +21,7 @@ jobs:
           name: Package
           path: staging
 
+          
   stackhawk:
     permissions:
       contents: read # for actions/checkout to fetch code
@@ -28,7 +29,7 @@ jobs:
     name: StackHawk
     runs-on: ubuntu-20.04
     needs: build  
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
