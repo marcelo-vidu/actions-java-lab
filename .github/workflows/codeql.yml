@@ -9,21 +9,16 @@ on:
 jobs:
     analyze:
         runs-on: ubuntu-latest
-
         steps:
-            - name: Checkout repository
             - uses: actions/checkout@v2
 
-            - name: Initialize CodeQL
-            uses: github/codeql-action/init@v1
-            with:
+            - uses: github/codeql-action/init@v1
+              with:
                 languages: java
 
-            - name: Build
-            run: mvn -B package --file pom.xml
+            - run: mvn -B package --file pom.xml
 
-            - name: Perform CodeQL Analysis
-            uses: github/codeql-action/analyze@v1
-            with:
+            - uses: github/codeql-action/analyze@v1
+              with:
                 database: codeql-database
                 query: security-extended.qls
