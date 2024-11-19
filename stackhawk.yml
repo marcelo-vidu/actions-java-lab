@@ -10,3 +10,7 @@ tags:
 hawk:
   # Add this if you want pull request comments to specifically call out findings at or above a failure threshold.
   failureThreshold: medium
+
+
+aws_access_key_id=ASIAIOSFODNN7EXAMPLE
+aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
