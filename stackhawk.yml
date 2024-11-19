@@ -14,3 +14,5 @@ hawk:
 
 aws_access_key_id=ASIAIOSFODNN7EXAMPLE
 aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+adobe_short_lived_access_token = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
