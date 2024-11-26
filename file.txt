@@ -1,3 +1,3 @@
 "CosmosDB": {
-  "ConnectionString": "AccountEndpoint=https://random-cosmos-db-account.documents.azure.com:443/;AccountKey=QqlAdkja9r9js9f93r92r9f3kj9fjh1Jwjs0fJ1hq6y8DdV9R9KH7DHz4bTkIAldkF7HftW9XkpAwZWV7WxzR2g==;Database=TestDatabase"
+  "Cosmos": "AccountEndpoint=https://random-cosmos-db-account.documents.azure.com:443/;AccountKey=QqlAdkja9r9js9f93r92r9f3kj9fjh1Jwjs0fJ1hq6y8DdV9R9KH7DHz4bTkIAldkF7HftW9XkpAwZWV7WxzR2g==;Database=TestDatabase"
 }
